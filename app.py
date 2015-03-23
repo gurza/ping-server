@@ -4,7 +4,7 @@ app = Flask(__name__)
 app.config.from_object('config')
 
 @app.route('/', methods=['GET', 'POST'])
-def echo():
+def ping():
     return '',200
 
 
